@@ -1,0 +1,41 @@
+Arguments: 
+  D:\Software\node\node.exe D:\Software\yarn\bin\yarn.js add commander version 3.0.2
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\UE;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\putty\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Software\yarn\bin\;D:\Software\node\;C:\Program Files\dotnet\;D:\python3.83\Scripts\;D:\python3.83\;C:\Users\god\AppData\Local\Microsoft\WindowsApps;D:\WebStorm 2019.3\bin;C:\Users\god\AppData\Local\GitHubDesktop\bin;D:\Microsoft VS Code\bin;C:\Users\god\AppData\Local\Microsoft\WindowsApps;C:\Users\god\AppData\Local\Yarn\bin;C:\Users\god\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/3.0.2: Not found
+      at Request.params.callback [as _callback] (D:\Software\yarn\lib\cli.js:66097:18)
+      at Request.self.callback (D:\Software\yarn\lib\cli.js:140749:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (D:\Software\yarn\lib\cli.js:141721:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (D:\Software\yarn\lib\cli.js:141643:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "node-todo-hehe",
+    "version": "0.0.1",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
